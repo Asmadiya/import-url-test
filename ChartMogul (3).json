@@ -1,0 +1,581 @@
+{
+  "updatedAt": "2026-03-23T06:04:11.299Z",
+  "createdAt": "2026-03-23T06:04:11.299Z",
+  "id": "Udg+hW7WmDYopgaUkKZ9RJIxFvnF09RV+1bsGTNcLJRwCMnZP0PYWl3X/7a6Ysk=",
+  "name": "ChartMogul",
+  "description": null,
+  "active": false,
+  "isArchived": false,
+  "graph": {
+    "edges": [
+      {
+        "id": "e-c55c3435-45f8-4ad6-9f91-f1e2faf347e8-534677d3-2cb1-4063-88b9-9f05fce32f95",
+        "type": "action",
+        "source": "c55c3435-45f8-4ad6-9f91-f1e2faf347e8",
+        "target": "534677d3-2cb1-4063-88b9-9f05fce32f95",
+        "sourceHandle": "out",
+        "targetHandle": "in"
+      },
+      {
+        "id": "e-c55c3435-45f8-4ad6-9f91-f1e2faf347e8-534677d3-2cb1-4063-88b9-9f05fce32f95",
+        "type": "action",
+        "source": "c55c3435-45f8-4ad6-9f91-f1e2faf347e8",
+        "target": "534677d3-2cb1-4063-88b9-9f05fce32f95",
+        "sourceHandle": "out",
+        "targetHandle": "in"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "c55c3435-45f8-4ad6-9f91-f1e2faf347e8",
+        "data": {
+          "icon": "https://s3.ap-south-1.amazonaws.com/y0-dev-assets/y0-uploads/tools/2/manual.svg",
+          "color": "#E6E7EC",
+          "label": "Manual",
+          "value": {
+            "notice": ""
+          },
+          "actionId": "2",
+          "operation": null,
+          "description": "Add to start the workflow execution starts",
+          "resourceName": null
+        },
+        "type": "MANUAL",
+        "events": {},
+        "dragging": false,
+        "isParent": false,
+        "position": {
+          "x": 208,
+          "y": 208
+        },
+        "resizing": false,
+        "selected": false,
+        "dimensions": {
+          "width": 320,
+          "height": 66
+        },
+        "parameters": {
+          "notice": ""
+        },
+        "selectable": false,
+        "initialized": false,
+        "handleBounds": {
+          "source": [
+            {
+              "x": 316.20001220703125,
+              "y": 30.050003051757812,
+              "id": "out",
+              "type": "source",
+              "width": 6,
+              "height": 6,
+              "nodeId": "c55c3435-45f8-4ad6-9f91-f1e2faf347e8",
+              "position": "right"
+            }
+          ],
+          "target": null
+        },
+        "nodeTypeActions": "trigger",
+        "computedPosition": {
+          "x": 208,
+          "y": 208,
+          "z": 0
+        }
+      },
+      {
+        "id": "534677d3-2cb1-4063-88b9-9f05fce32f95",
+        "data": {
+          "icon": "https://s3.ap-south-1.amazonaws.com/y0-dev-assets/y0-uploads/tools/169/chartmogul_logo.svg",
+          "color": "#E6E7EC",
+          "label": "ChartMogul - Get Account Details",
+          "value": {
+            "": "",
+            "date": "2026-03-18T10:47",
+            "name": "Transaction -01 Test -1",
+            "text": "YO-CALL",
+            "type": "call",
+            "email": "",
+            "result": "successful",
+            "status": "written_off",
+            "curreny": "INR",
+            "currency": "INR",
+            "due_date": "2026-03-18T12:49",
+            "end_date": "2026-03-19T04:33",
+            "interval": "month",
+            "merge_to": "",
+            "per_page": "10",
+            "pipeline": "New Business",
+            "quantity": "",
+            "resource": "note_and_call_log",
+            "note_uuid": "note_bb8d1d1e-2388-11f1-be0e-77f0f0e7202d",
+            "operation": "getall",
+            "plan_uuid": "pl_251e9fd0-05a0-013f-8826-5ad17a9aae0a",
+            "returnAll": "false",
+            "task_uuid": "733d2304-237b-11f1-af1e-9fbe5def800a",
+            "event_date": "2026-03-18T13:29",
+            "event_type": "subscription_start",
+            "first_name": "",
+            "line_items": [
+              {
+                "type": "subscription",
+                "plan_uuid": "pl_251e9fd0-05a0-013f-8826-5ad17a9aae0a",
+                "description": "",
+                "amount_in_cents": "10000",
+                "service_period_end": "2026-03-18T11:06",
+                "service_period_start": "2026-03-18T11:06",
+                "subscription_external_id": "1234test",
+                "subscription_set_external_id": "1234test"
+              }
+            ],
+            "merge_from": "",
+            "start_date": "2026-03-19T04:32",
+            "external_id": "Test001",
+            "owner_email": "piyupawar714@gmail.com",
+            "contact_uuid": "",
+            "invoice_uuid": "",
+            "task_details": "Y0 Task - test 13",
+            "credential_id": 634,
+            "customer_uuid": "cus_d855cd86-2358-11f1-9571-630d9ddd580f",
+            "interval_unit": "month",
+            "subscriptions": [
+              {
+                "external_id": "123test",
+                "data_source_uuid": "ds_4934f51e-2353-11f1-9d07-bb2f50e27f4b"
+              }
+            ],
+            "assignee_email": "piyupawar714@gmail.com",
+            "effective_date": "2026-03-18T13:29",
+            "interval_count": "1",
+            "line_item_uuid": "",
+            "pipeline_stage": "Discovery",
+            "amount_in_cents": "5000",
+            "objects_to_move": "",
+            "plan_group_uuid": "",
+            "data_source_uuid": "ds_a4db8df8-2383-11f1-9b0b-eb3f081ef68c",
+            "opportunity_uuid": "03f22494-2372-11f1-83cd-b7dcd917016d",
+            "plan_external_id": "",
+            "transaction_uuid": "",
+            "service_period_end": "",
+            "invoice_external_id": "",
+            "activities_export_id": "",
+            "customer_external_id": "",
+            "estimated_close_date": "2026-03-18T12:04",
+            "service_period_start": "",
+            "subscription_external_id": ""
+          },
+          "actionId": "169",
+          "operation": "get",
+          "description": "Retrieve details of an account",
+          "resourceName": "account"
+        },
+        "type": "CHARTMOGUL",
+        "events": {},
+        "dragging": false,
+        "isParent": false,
+        "position": {
+          "x": 608,
+          "y": 304
+        },
+        "resizing": false,
+        "selected": false,
+        "dimensions": {
+          "width": 420,
+          "height": 66
+        },
+        "parameters": {
+          "": "",
+          "date": "2026-03-18T10:47",
+          "name": "Transaction -01 Test -1",
+          "text": "YO-CALL",
+          "type": "call",
+          "email": "",
+          "result": "successful",
+          "status": "written_off",
+          "curreny": "INR",
+          "currency": "INR",
+          "due_date": "2026-03-18T12:49",
+          "end_date": "2026-03-19T04:33",
+          "interval": "month",
+          "merge_to": "",
+          "per_page": "10",
+          "pipeline": "New Business",
+          "quantity": "",
+          "resource": "note_and_call_log",
+          "note_uuid": "note_bb8d1d1e-2388-11f1-be0e-77f0f0e7202d",
+          "operation": "getall",
+          "plan_uuid": "pl_251e9fd0-05a0-013f-8826-5ad17a9aae0a",
+          "returnAll": "false",
+          "task_uuid": "733d2304-237b-11f1-af1e-9fbe5def800a",
+          "event_date": "2026-03-18T13:29",
+          "event_type": "subscription_start",
+          "first_name": "",
+          "line_items": [
+            {
+              "type": "subscription",
+              "plan_uuid": "pl_251e9fd0-05a0-013f-8826-5ad17a9aae0a",
+              "description": "",
+              "amount_in_cents": "10000",
+              "service_period_end": "2026-03-18T11:06",
+              "service_period_start": "2026-03-18T11:06",
+              "subscription_external_id": "1234test",
+              "subscription_set_external_id": "1234test"
+            }
+          ],
+          "merge_from": "",
+          "start_date": "2026-03-19T04:32",
+          "external_id": "Test001",
+          "owner_email": "piyupawar714@gmail.com",
+          "contact_uuid": "",
+          "invoice_uuid": "",
+          "task_details": "Y0 Task - test 13",
+          "credential_id": 634,
+          "customer_uuid": "cus_d855cd86-2358-11f1-9571-630d9ddd580f",
+          "interval_unit": "month",
+          "subscriptions": [
+            {
+              "external_id": "123test",
+              "data_source_uuid": "ds_4934f51e-2353-11f1-9d07-bb2f50e27f4b"
+            }
+          ],
+          "assignee_email": "piyupawar714@gmail.com",
+          "effective_date": "2026-03-18T13:29",
+          "interval_count": "1",
+          "line_item_uuid": "",
+          "pipeline_stage": "Discovery",
+          "amount_in_cents": "5000",
+          "objects_to_move": "",
+          "plan_group_uuid": "",
+          "data_source_uuid": "ds_a4db8df8-2383-11f1-9b0b-eb3f081ef68c",
+          "opportunity_uuid": "03f22494-2372-11f1-83cd-b7dcd917016d",
+          "plan_external_id": "",
+          "transaction_uuid": "",
+          "service_period_end": "",
+          "invoice_external_id": "",
+          "activities_export_id": "",
+          "customer_external_id": "",
+          "estimated_close_date": "2026-03-18T12:04",
+          "service_period_start": "",
+          "subscription_external_id": ""
+        },
+        "selectable": false,
+        "initialized": false,
+        "handleBounds": {
+          "source": [
+            {
+              "x": 316.20001220703125,
+              "y": 30.050018310546875,
+              "id": "out",
+              "type": "source",
+              "width": 6,
+              "height": 6,
+              "nodeId": "534677d3-2cb1-4063-88b9-9f05fce32f95",
+              "position": "right"
+            }
+          ],
+          "target": [
+            {
+              "x": -2.20001220703125,
+              "y": 30.050018310546875,
+              "id": "in",
+              "type": "target",
+              "width": 6,
+              "height": 6,
+              "nodeId": "534677d3-2cb1-4063-88b9-9f05fce32f95",
+              "position": "left"
+            }
+          ]
+        },
+        "nodeTypeActions": "action",
+        "computedPosition": {
+          "x": 608,
+          "y": 304,
+          "z": 0
+        }
+      },
+      {
+        "id": "c55c3435-45f8-4ad6-9f91-f1e2faf347e8",
+        "data": {
+          "icon": "https://s3.ap-south-1.amazonaws.com/y0-dev-assets/y0-uploads/tools/2/manual.svg",
+          "color": "#E6E7EC",
+          "label": "Manual",
+          "value": {
+            "notice": ""
+          },
+          "actionId": "2",
+          "operation": null,
+          "description": "Add to start the workflow execution starts",
+          "resourceName": null
+        },
+        "type": "MANUAL",
+        "events": {},
+        "dragging": false,
+        "isParent": false,
+        "position": {
+          "x": 208,
+          "y": 208
+        },
+        "resizing": false,
+        "selected": false,
+        "dimensions": {
+          "width": 320,
+          "height": 66
+        },
+        "parameters": {
+          "notice": ""
+        },
+        "selectable": false,
+        "initialized": false,
+        "handleBounds": {
+          "source": [
+            {
+              "x": 316.20001220703125,
+              "y": 30.050003051757812,
+              "id": "out",
+              "type": "source",
+              "width": 6,
+              "height": 6,
+              "nodeId": "c55c3435-45f8-4ad6-9f91-f1e2faf347e8",
+              "position": "right"
+            }
+          ],
+          "target": null
+        },
+        "nodeTypeActions": "trigger",
+        "computedPosition": {
+          "x": 208,
+          "y": 208,
+          "z": 0
+        }
+      },
+      {
+        "id": "534677d3-2cb1-4063-88b9-9f05fce32f95",
+        "data": {
+          "icon": "https://s3.ap-south-1.amazonaws.com/y0-dev-assets/y0-uploads/tools/169/chartmogul_logo.svg",
+          "color": "#E6E7EC",
+          "label": "ChartMogul - Get Account Details",
+          "value": {
+            "": "",
+            "date": "2026-03-18T10:47",
+            "name": "Transaction -01 Test -1",
+            "text": "YO-CALL",
+            "type": "call",
+            "email": "",
+            "result": "successful",
+            "status": "written_off",
+            "curreny": "INR",
+            "currency": "INR",
+            "due_date": "2026-03-18T12:49",
+            "end_date": "2026-03-19T04:33",
+            "interval": "month",
+            "merge_to": "",
+            "per_page": "10",
+            "pipeline": "New Business",
+            "quantity": "",
+            "resource": "note_and_call_log",
+            "note_uuid": "note_bb8d1d1e-2388-11f1-be0e-77f0f0e7202d",
+            "operation": "getall",
+            "plan_uuid": "pl_251e9fd0-05a0-013f-8826-5ad17a9aae0a",
+            "returnAll": "false",
+            "task_uuid": "733d2304-237b-11f1-af1e-9fbe5def800a",
+            "event_date": "2026-03-18T13:29",
+            "event_type": "subscription_start",
+            "first_name": "",
+            "line_items": [
+              {
+                "type": "subscription",
+                "plan_uuid": "pl_251e9fd0-05a0-013f-8826-5ad17a9aae0a",
+                "description": "",
+                "amount_in_cents": "10000",
+                "service_period_end": "2026-03-18T11:06",
+                "service_period_start": "2026-03-18T11:06",
+                "subscription_external_id": "1234test",
+                "subscription_set_external_id": "1234test"
+              }
+            ],
+            "merge_from": "",
+            "start_date": "2026-03-19T04:32",
+            "external_id": "Test001",
+            "owner_email": "piyupawar714@gmail.com",
+            "contact_uuid": "",
+            "invoice_uuid": "",
+            "task_details": "Y0 Task - test 13",
+            "credential_id": 634,
+            "customer_uuid": "cus_d855cd86-2358-11f1-9571-630d9ddd580f",
+            "interval_unit": "month",
+            "subscriptions": [
+              {
+                "external_id": "123test",
+                "data_source_uuid": "ds_4934f51e-2353-11f1-9d07-bb2f50e27f4b"
+              }
+            ],
+            "assignee_email": "piyupawar714@gmail.com",
+            "effective_date": "2026-03-18T13:29",
+            "interval_count": "1",
+            "line_item_uuid": "",
+            "pipeline_stage": "Discovery",
+            "amount_in_cents": "5000",
+            "objects_to_move": "",
+            "plan_group_uuid": "",
+            "data_source_uuid": "ds_a4db8df8-2383-11f1-9b0b-eb3f081ef68c",
+            "opportunity_uuid": "03f22494-2372-11f1-83cd-b7dcd917016d",
+            "plan_external_id": "",
+            "transaction_uuid": "",
+            "service_period_end": "",
+            "invoice_external_id": "",
+            "activities_export_id": "",
+            "customer_external_id": "",
+            "estimated_close_date": "2026-03-18T12:04",
+            "service_period_start": "",
+            "subscription_external_id": ""
+          },
+          "actionId": "169",
+          "operation": "get",
+          "description": "Retrieve details of an account",
+          "resourceName": "account"
+        },
+        "type": "CHARTMOGUL",
+        "events": {},
+        "dragging": false,
+        "isParent": false,
+        "position": {
+          "x": 608,
+          "y": 304
+        },
+        "resizing": false,
+        "selected": false,
+        "dimensions": {
+          "width": 420,
+          "height": 66
+        },
+        "parameters": {
+          "": "",
+          "date": "2026-03-18T10:47",
+          "name": "Transaction -01 Test -1",
+          "text": "YO-CALL",
+          "type": "call",
+          "email": "",
+          "result": "successful",
+          "status": "written_off",
+          "curreny": "INR",
+          "currency": "INR",
+          "due_date": "2026-03-18T12:49",
+          "end_date": "2026-03-19T04:33",
+          "interval": "month",
+          "merge_to": "",
+          "per_page": "10",
+          "pipeline": "New Business",
+          "quantity": "",
+          "resource": "note_and_call_log",
+          "note_uuid": "note_bb8d1d1e-2388-11f1-be0e-77f0f0e7202d",
+          "operation": "getall",
+          "plan_uuid": "pl_251e9fd0-05a0-013f-8826-5ad17a9aae0a",
+          "returnAll": "false",
+          "task_uuid": "733d2304-237b-11f1-af1e-9fbe5def800a",
+          "event_date": "2026-03-18T13:29",
+          "event_type": "subscription_start",
+          "first_name": "",
+          "line_items": [
+            {
+              "type": "subscription",
+              "plan_uuid": "pl_251e9fd0-05a0-013f-8826-5ad17a9aae0a",
+              "description": "",
+              "amount_in_cents": "10000",
+              "service_period_end": "2026-03-18T11:06",
+              "service_period_start": "2026-03-18T11:06",
+              "subscription_external_id": "1234test",
+              "subscription_set_external_id": "1234test"
+            }
+          ],
+          "merge_from": "",
+          "start_date": "2026-03-19T04:32",
+          "external_id": "Test001",
+          "owner_email": "piyupawar714@gmail.com",
+          "contact_uuid": "",
+          "invoice_uuid": "",
+          "task_details": "Y0 Task - test 13",
+          "credential_id": 634,
+          "customer_uuid": "cus_d855cd86-2358-11f1-9571-630d9ddd580f",
+          "interval_unit": "month",
+          "subscriptions": [
+            {
+              "external_id": "123test",
+              "data_source_uuid": "ds_4934f51e-2353-11f1-9d07-bb2f50e27f4b"
+            }
+          ],
+          "assignee_email": "piyupawar714@gmail.com",
+          "effective_date": "2026-03-18T13:29",
+          "interval_count": "1",
+          "line_item_uuid": "",
+          "pipeline_stage": "Discovery",
+          "amount_in_cents": "5000",
+          "objects_to_move": "",
+          "plan_group_uuid": "",
+          "data_source_uuid": "ds_a4db8df8-2383-11f1-9b0b-eb3f081ef68c",
+          "opportunity_uuid": "03f22494-2372-11f1-83cd-b7dcd917016d",
+          "plan_external_id": "",
+          "transaction_uuid": "",
+          "service_period_end": "",
+          "invoice_external_id": "",
+          "activities_export_id": "",
+          "customer_external_id": "",
+          "estimated_close_date": "2026-03-18T12:04",
+          "service_period_start": "",
+          "subscription_external_id": ""
+        },
+        "selectable": false,
+        "initialized": false,
+        "handleBounds": {
+          "source": [
+            {
+              "x": 316.20001220703125,
+              "y": 30.050018310546875,
+              "id": "out",
+              "type": "source",
+              "width": 6,
+              "height": 6,
+              "nodeId": "534677d3-2cb1-4063-88b9-9f05fce32f95",
+              "position": "right"
+            }
+          ],
+          "target": [
+            {
+              "x": -2.20001220703125,
+              "y": 30.050018310546875,
+              "id": "in",
+              "type": "target",
+              "width": 6,
+              "height": 6,
+              "nodeId": "534677d3-2cb1-4063-88b9-9f05fce32f95",
+              "position": "left"
+            }
+          ]
+        },
+        "nodeTypeActions": "action",
+        "computedPosition": {
+          "x": 608,
+          "y": 304,
+          "z": 0
+        }
+      }
+    ],
+    "notes": [
+      {
+        "id": "96096aaa-d6e7-493a-9e4f-a20e00663fbf",
+        "color": "#A8CFC0",
+        "width": 150,
+        "height": 150,
+        "content": "<ul><li>JKGJFYJGYH</li></ul>",
+        "fontSize": 14,
+        "position": {
+          "x": 356,
+          "y": 371
+        }
+      }
+    ]
+  },
+  "versionId": "UAYgBC8hT2UqicYJTDtPcfdFh0wMmVVMP0xeq/sz5EQc67E3npZT6nhkWYqjPF4=",
+  "tags": [],
+  "apps_used": [
+    "manual",
+    "chartmogul"
+  ]
+}
