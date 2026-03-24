@@ -1,0 +1,285 @@
+{
+  "updatedAt": "2026-03-24T08:59:55.530Z",
+  "createdAt": "2026-03-24T08:59:55.530Z",
+  "id": "uRX7hIPLbautN3Sixtw/6LmmaXzIcwyAjMkUueLWafkYAusEQ/PYqb4F8JlZWCQ=",
+  "name": "workflow  12:11 PM (cloned) (1)",
+  "description": null,
+  "active": false,
+  "isArchived": false,
+  "graph": {
+    "edges": [
+      {
+        "id": "e-b0c3a141-dd04-44d7-b319-e0227ac8c12c-3da6a638-6cca-467c-9360-9652403bbadb",
+        "data": {},
+        "type": "action",
+        "label": "",
+        "events": {},
+        "source": "b0c3a141-dd04-44d7-b319-e0227ac8c12c",
+        "target": "3da6a638-6cca-467c-9360-9652403bbadb",
+        "sourceX": 942.2000122070312,
+        "sourceY": 333.0500183105469,
+        "targetX": 397.8000183105469,
+        "targetY": 332.8000183105469
+      },
+      {
+        "id": "e-3da6a638-6cca-467c-9360-9652403bbadb-20d2ed7e-1303-44c8-9c07-7c10dadf577f",
+        "data": {},
+        "type": "action",
+        "label": "",
+        "events": {},
+        "source": "3da6a638-6cca-467c-9360-9652403bbadb",
+        "target": "20d2ed7e-1303-44c8-9c07-7c10dadf577f",
+        "sourceX": 662.2000122070312,
+        "sourceY": 332.8000183105469,
+        "targetX": 997.7999877929688,
+        "targetY": 332.8000183105469
+      },
+      {
+        "id": "e-20d2ed7e-1303-44c8-9c07-7c10dadf577f-5bcf6c74-3672-4d1a-9eeb-5bde8e5be1aa",
+        "data": {},
+        "type": "action",
+        "label": "",
+        "events": {},
+        "source": "20d2ed7e-1303-44c8-9c07-7c10dadf577f",
+        "target": "5bcf6c74-3672-4d1a-9eeb-5bde8e5be1aa",
+        "sourceX": 1262.2000732421875,
+        "sourceY": 332.8000183105469,
+        "targetX": 1373.800048828125,
+        "targetY": 336.8000183105469,
+        "sourceHandle": "out",
+        "targetHandle": "in"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "3da6a638-6cca-467c-9360-9652403bbadb",
+        "data": {
+          "label": "AIRTABLE"
+        },
+        "type": "AIRTABLE",
+        "events": {},
+        "dragging": false,
+        "isParent": false,
+        "position": {
+          "x": 0,
+          "y": 304
+        },
+        "resizing": false,
+        "selected": false,
+        "dimensions": {
+          "width": 320,
+          "height": 67
+        },
+        "parameters": {
+          "resource": "base",
+          "operation": "getall",
+          "returnAll": "true",
+          "credential_id": 142
+        },
+        "selectable": false,
+        "initialized": false,
+        "handleBounds": {
+          "source": [
+            {
+              "x": 315.39980452968007,
+              "y": 30.599959060321872,
+              "id": "out",
+              "type": "source",
+              "width": 6,
+              "height": 6,
+              "nodeId": "3da6a638-6cca-467c-9360-9652403bbadb",
+              "position": "right"
+            }
+          ],
+          "target": [
+            {
+              "x": -1.400009075171708,
+              "y": 30.599959060321872,
+              "id": "in",
+              "type": "target",
+              "width": 6,
+              "height": 6,
+              "nodeId": "3da6a638-6cca-467c-9360-9652403bbadb",
+              "position": "left"
+            }
+          ]
+        },
+        "nodeTypeActions": "action",
+        "computedPosition": {
+          "x": 0,
+          "y": 304,
+          "z": 0
+        }
+      },
+      {
+        "id": "b0c3a141-dd04-44d7-b319-e0227ac8c12c",
+        "data": {
+          "label": "MANUAL"
+        },
+        "type": "MANUAL",
+        "events": {},
+        "dragging": false,
+        "isParent": false,
+        "position": {
+          "x": -160,
+          "y": 176
+        },
+        "resizing": false,
+        "selected": false,
+        "dimensions": {
+          "width": 320,
+          "height": 68
+        },
+        "parameters": {},
+        "selectable": false,
+        "initialized": false,
+        "handleBounds": {
+          "source": [
+            {
+              "x": 315.3998594503036,
+              "y": 30.84995773871199,
+              "id": "out",
+              "type": "source",
+              "width": 6,
+              "height": 6,
+              "nodeId": "b0c3a141-dd04-44d7-b319-e0227ac8c12c",
+              "position": "right"
+            }
+          ],
+          "target": null
+        },
+        "nodeTypeActions": "trigger",
+        "computedPosition": {
+          "x": -160,
+          "y": 176,
+          "z": 0
+        }
+      },
+      {
+        "id": "20d2ed7e-1303-44c8-9c07-7c10dadf577f",
+        "data": {
+          "label": "HTTPREQUEST"
+        },
+        "type": "HTTPREQUEST",
+        "events": {},
+        "dragging": false,
+        "isParent": false,
+        "position": {
+          "x": 192,
+          "y": 464
+        },
+        "resizing": false,
+        "selected": false,
+        "dimensions": {
+          "width": 320,
+          "height": 66
+        },
+        "parameters": {},
+        "selectable": false,
+        "initialized": false,
+        "handleBounds": {
+          "source": [
+            {
+              "x": 316.20001220703125,
+              "y": 29.800018310546875,
+              "id": "out",
+              "type": "source",
+              "width": 6,
+              "height": 6,
+              "nodeId": "20d2ed7e-1303-44c8-9c07-7c10dadf577f",
+              "position": "right"
+            }
+          ],
+          "target": [
+            {
+              "x": -2.1999969482421875,
+              "y": 29.800018310546875,
+              "id": "in",
+              "type": "target",
+              "width": 6,
+              "height": 6,
+              "nodeId": "20d2ed7e-1303-44c8-9c07-7c10dadf577f",
+              "position": "left"
+            }
+          ]
+        },
+        "nodeTypeActions": "action",
+        "computedPosition": {
+          "x": 192,
+          "y": 464,
+          "z": 0
+        }
+      },
+      {
+        "id": "5bcf6c74-3672-4d1a-9eeb-5bde8e5be1aa",
+        "data": {
+          "icon": "https://s3.ap-south-1.amazonaws.com/y0-dev-assets/y0-uploads/tools/108/gmail.svg",
+          "color": "#E6E7EC",
+          "label": "Gmail",
+          "actionId": "108",
+          "operation": null,
+          "description": "",
+          "resourceName": null
+        },
+        "type": "GMAIL",
+        "events": {},
+        "dragging": false,
+        "isParent": false,
+        "position": {
+          "x": 576,
+          "y": 608
+        },
+        "resizing": false,
+        "selected": false,
+        "dimensions": {
+          "width": 420,
+          "height": 66
+        },
+        "parameters": {},
+        "selectable": false,
+        "initialized": false,
+        "handleBounds": {
+          "source": [
+            {
+              "x": 316.20001220703125,
+              "y": 29.79998779296875,
+              "id": "out",
+              "type": "source",
+              "width": 6,
+              "height": 6,
+              "nodeId": "5bcf6c74-3672-4d1a-9eeb-5bde8e5be1aa",
+              "position": "right"
+            }
+          ],
+          "target": [
+            {
+              "x": -2.20001220703125,
+              "y": 29.79998779296875,
+              "id": "in",
+              "type": "target",
+              "width": 6,
+              "height": 6,
+              "nodeId": "5bcf6c74-3672-4d1a-9eeb-5bde8e5be1aa",
+              "position": "left"
+            }
+          ]
+        },
+        "nodeTypeActions": null,
+        "computedPosition": {
+          "x": 576,
+          "y": 608,
+          "z": 0
+        }
+      }
+    ],
+    "notes": []
+  },
+  "versionId": "RbTbXKS5eKEtITJFhp962H3t5u8FZT24vu1N7wj2ETlZe5oOm6yWxu078CW1Ulc=",
+  "tags": [],
+  "apps_used": [
+    "airtable",
+    "manual",
+    "httprequest",
+    "gmail"
+  ]
+}
