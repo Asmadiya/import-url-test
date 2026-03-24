@@ -1,0 +1,159 @@
+{
+  "updatedAt": "2026-03-24T05:56:31.907Z",
+  "createdAt": "2026-03-24T05:56:31.907Z",
+  "id": "26rFhrv4xv+H4JZs5O5n3KLJZXUxcnq0o41bmO+Q0mUUufjqmPLPy4oXMdW0TxY=",
+  "name": "ClickSend",
+  "description": null,
+  "active": false,
+  "isArchived": false,
+  "graph": {
+    "edges": [
+      {
+        "id": "e-206a2289-9b2f-4d21-80ec-a0605c0531c5-f0c4edee-d5ae-425d-af44-35e949e5f1f0",
+        "type": "action",
+        "source": "206a2289-9b2f-4d21-80ec-a0605c0531c5",
+        "target": "f0c4edee-d5ae-425d-af44-35e949e5f1f0",
+        "sourceHandle": "out",
+        "targetHandle": "in"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "206a2289-9b2f-4d21-80ec-a0605c0531c5",
+        "data": {
+          "icon": "https://s3.ap-south-1.amazonaws.com/y0-dev-assets/y0-uploads/tools/2/manual.svg",
+          "color": "#E6E7EC",
+          "label": "Manual",
+          "value": {
+            "notice": ""
+          },
+          "actionId": "2",
+          "operation": null,
+          "description": "Add to start the workflow execution starts",
+          "resourceName": null
+        },
+        "type": "MANUAL",
+        "events": {},
+        "dragging": false,
+        "isParent": false,
+        "position": {
+          "x": 208,
+          "y": 208
+        },
+        "resizing": false,
+        "selected": false,
+        "dimensions": {
+          "width": 320,
+          "height": 68
+        },
+        "parameters": {
+          "notice": ""
+        },
+        "selectable": false,
+        "initialized": false,
+        "handleBounds": {
+          "source": [
+            {
+              "x": 315.4000244140625,
+              "y": 30.850006103515625,
+              "id": "out",
+              "type": "source",
+              "width": 6,
+              "height": 6,
+              "nodeId": "206a2289-9b2f-4d21-80ec-a0605c0531c5",
+              "position": "right"
+            }
+          ],
+          "target": null
+        },
+        "nodeTypeActions": "trigger",
+        "computedPosition": {
+          "x": 208,
+          "y": 208,
+          "z": 0
+        }
+      },
+      {
+        "id": "f0c4edee-d5ae-425d-af44-35e949e5f1f0",
+        "data": {
+          "icon": "https://s3.ap-south-1.amazonaws.com/y0-dev-assets/y0-uploads/tools/153/clicksend_logo.svg",
+          "color": "#E6E7EC",
+          "label": "ClickSend - Send a message",
+          "value": {
+            "to": "9987205940",
+            "content": "what about our plan ?",
+            "resource": "message",
+            "operation": "send",
+            "credential_id": 585
+          },
+          "actionId": "153",
+          "operation": "send",
+          "description": "send a text message",
+          "resourceName": "message"
+        },
+        "type": "CLICKSEND",
+        "events": {},
+        "dragging": false,
+        "isParent": false,
+        "position": {
+          "x": 592,
+          "y": 208
+        },
+        "resizing": false,
+        "selected": false,
+        "dimensions": {
+          "width": 420,
+          "height": 68
+        },
+        "parameters": {
+          "to": "9987205940",
+          "content": "what about our plan ?",
+          "resource": "message",
+          "operation": "send",
+          "credential_id": 585
+        },
+        "selectable": false,
+        "initialized": false,
+        "handleBounds": {
+          "source": [
+            {
+              "x": 315.4000244140625,
+              "y": 30.850006103515625,
+              "id": "out",
+              "type": "source",
+              "width": 6,
+              "height": 6,
+              "nodeId": "f0c4edee-d5ae-425d-af44-35e949e5f1f0",
+              "position": "right"
+            }
+          ],
+          "target": [
+            {
+              "x": -1.39996337890625,
+              "y": 30.850006103515625,
+              "id": "in",
+              "type": "target",
+              "width": 6,
+              "height": 6,
+              "nodeId": "f0c4edee-d5ae-425d-af44-35e949e5f1f0",
+              "position": "left"
+            }
+          ]
+        },
+        "nodeTypeActions": "action",
+        "computedPosition": {
+          "x": 592,
+          "y": 208,
+          "z": 0
+        }
+      }
+    ],
+    "notes": []
+  },
+  "versionId": "nSsEI0phkVq88MM9qXel/FnPivOFIJV88Mb+Ivpgt0THVxPc9o8cjN9waZbs/gM=",
+  "tags": [],
+  "apps_used": [
+    "manual",
+    "clicksend"
+  ]
+}
