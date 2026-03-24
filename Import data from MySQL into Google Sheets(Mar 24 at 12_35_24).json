@@ -1,0 +1,126 @@
+{
+  "updatedAt": "2026-03-24T07:05:24.486Z",
+  "createdAt": "2026-03-24T07:05:24.486Z",
+  "id": "TwofXnoEv1LpmldY",
+  "name": "Import data from MySQL into Google Sheets",
+  "description": null,
+  "active": false,
+  "isArchived": false,
+  "nodes": [
+    {
+      "parameters": {
+        "triggerTimes": {
+          "item": [
+            {
+              "mode": "everyWeek",
+              "hour": 5
+            }
+          ]
+        }
+      },
+      "name": "Cron",
+      "type": "n8n-nodes-base.cron",
+      "position": [
+        368,
+        240
+      ],
+      "typeVersion": 1,
+      "id": "2b62600c-16df-46b6-baec-322c69288faf"
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT * FROM books;"
+      },
+      "name": "MySQL - select",
+      "type": "n8n-nodes-base.mySql",
+      "position": [
+        576,
+        240
+      ],
+      "typeVersion": 1,
+      "id": "9afe7e9a-c4fe-4978-af2b-775d1ba56042"
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "operation": "append",
+        "sheetId": "qwertz",
+        "options": {}
+      },
+      "name": "Google Sheets - write",
+      "type": "n8n-nodes-base.googleSheets",
+      "position": [
+        768,
+        240
+      ],
+      "typeVersion": 1,
+      "id": "ba7e5e18-9167-4691-a8d4-c642e7daebc0"
+    }
+  ],
+  "connections": {
+    "Cron": {
+      "main": [
+        [
+          {
+            "node": "MySQL - select",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MySQL - select": {
+      "main": [
+        [
+          {
+            "node": "Google Sheets - write",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "staticData": null,
+  "meta": {
+    "templateId": "1753"
+  },
+  "pinData": {},
+  "versionId": "aa6efc61-7d72-4fff-bb0b-e75e90906343",
+  "activeVersionId": null,
+  "versionCounter": 1,
+  "triggerCount": 0,
+  "tags": [],
+  "parentFolder": null,
+  "activeVersion": null,
+  "homeProject": {
+    "id": "eNnKteHYAj6Ojuud",
+    "type": "personal",
+    "name": "Piyu Pawar -01 <payaltest152@gmail.com>",
+    "icon": null
+  },
+  "sharedWithProjects": [],
+  "usedCredentials": [],
+  "scopes": [
+    "workflow:create",
+    "workflow:delete",
+    "workflow:execute",
+    "workflow:execute-chat",
+    "workflow:list",
+    "workflow:move",
+    "workflow:publish",
+    "workflow:read",
+    "workflow:share",
+    "workflow:unpublish",
+    "workflow:unshare",
+    "workflow:update",
+    "workflow:updateRedactionSetting"
+  ],
+  "checksum": "76cb4c7b2262edf73e908b8bc4db139410392bbf3faab27f98d3cd8e3c45617f"
+}
