@@ -1,0 +1,94 @@
+{
+  "updatedAt": "2026-03-30T10:33:34.923Z",
+  "createdAt": "2026-03-30T10:33:34.923Z",
+  "id": "OmZbgd/eSxRPlsUWIIdoSBQK2/PklcxMbmD1z6uOSL3O2XkfSz++6OlTVNQlM6o=",
+  "name": "workflow (32)",
+  "description": null,
+  "active": false,
+  "isArchived": false,
+  "graph": {
+    "edges": [],
+    "nodes": [
+      {
+        "id": "be803572-b6bb-4ba3-9b51-9a74c4e563cf",
+        "data": {
+          "icon": "https://s3.ap-south-1.amazonaws.com/y0-dev-assets/y0-uploads/tools/12/webhook.svg",
+          "color": "#E6E7EC",
+          "label": "Webhook",
+          "value": {
+            "url": "",
+            "path": "9b23642e-bc68-4532-859e-a36bcf7fe780",
+            "operation": "12",
+            "httpMethod": "GET",
+            "propertyName": "none",
+            "responseMode": "onReceived",
+            "webhook_urls": "test_url",
+            "credential_id": ""
+          },
+          "actionId": "12",
+          "operation": null,
+          "description": "Starts the workflow when a webhook is called",
+          "resourceName": null
+        },
+        "type": "WEBHOOK",
+        "events": {},
+        "dragging": false,
+        "isParent": false,
+        "position": {
+          "x": 32,
+          "y": 48
+        },
+        "resizing": false,
+        "selected": true,
+        "dimensions": {
+          "width": 420,
+          "height": 68
+        },
+        "parameters": {
+          "url": "",
+          "path": "9b23642e-bc68-4532-859e-a36bcf7fe780",
+          "operation": "12",
+          "httpMethod": "GET",
+          "propertyName": "none",
+          "responseMode": "onReceived",
+          "webhook_urls": "test_url",
+          "credential_id": ""
+        },
+        "selectable": false,
+        "initialized": false,
+        "handleBounds": {
+          "source": [
+            {
+              "x": 315.3999938964844,
+              "y": 30.850006103515625,
+              "id": "out",
+              "type": "source",
+              "width": 6,
+              "height": 6,
+              "nodeId": "be803572-b6bb-4ba3-9b51-9a74c4e563cf",
+              "position": "right"
+            }
+          ],
+          "target": null
+        },
+        "nodeTypeActions": "trigger",
+        "computedPosition": {
+          "x": 32,
+          "y": 48,
+          "z": 1000
+        }
+      }
+    ],
+    "notes": [],
+    "viewport": {
+      "x": 0,
+      "y": 0,
+      "zoom": 1
+    }
+  },
+  "versionId": "M4SLm+FZZCNoAExrdoipaMrQz0PicGtmwjYLZTja7sKlXLIWYevmSnKQrYxe4FM=",
+  "tags": [],
+  "apps_used": [
+    "webhook"
+  ]
+}
