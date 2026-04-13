@@ -1,0 +1,282 @@
+{
+  "updatedAt": "2026-04-13T10:31:42.746Z",
+  "createdAt": "2026-04-13T10:31:42.746Z",
+  "id": "7JjhUf6RIKr2TZ4+bu9tCyIdBP79HnfO9WCKMerw7c5BcbRwodNBVgl39kWerkM=",
+  "name": "workflow (26)",
+  "description": null,
+  "active": false,
+  "isArchived": false,
+  "graph": {
+    "edges": [
+      {
+        "id": "e-06396b23-285c-430a-b032-5a285fd0c87e-cab1a589-32cc-47ad-8364-3d1a85a1d8d4",
+        "type": "action",
+        "source": "06396b23-285c-430a-b032-5a285fd0c87e",
+        "target": "cab1a589-32cc-47ad-8364-3d1a85a1d8d4",
+        "sourceHandle": "out",
+        "targetHandle": "in"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "06396b23-285c-430a-b032-5a285fd0c87e",
+        "data": {
+          "icon": "https://s3.ap-south-1.amazonaws.com/y0-dev-assets/y0-uploads/tools/2/manual.svg",
+          "color": "#E6E7EC",
+          "label": "Manual",
+          "value": {
+            "notice": "",
+            "execution_setting": {
+              "notes": "",
+              "on_error": "stop_workflow",
+              "max_retries": 1,
+              "execute_once": false,
+              "retry_on_fail": false,
+              "always_output_data": false,
+              "wait_between_tries": 0,
+              "display_note_in_flow": false
+            }
+          },
+          "actionId": "2",
+          "operation": null,
+          "is_focused": false,
+          "description": "Add to start the workflow execution starts",
+          "resourceName": null,
+          "configuration": {
+            "execution_setting": {
+              "notes": "",
+              "on_error": "stop_workflow",
+              "max_retries": 1,
+              "execute_once": false,
+              "retry_on_fail": false,
+              "always_output_data": false,
+              "wait_between_tries": 0,
+              "display_note_in_flow": false
+            }
+          },
+          "focused_field": null,
+          "focused_field_meta": null
+        },
+        "type": "MANUAL",
+        "events": {},
+        "dragging": false,
+        "isParent": false,
+        "position": {
+          "x": 208,
+          "y": 208
+        },
+        "resizing": false,
+        "selected": false,
+        "dimensions": {
+          "width": 320,
+          "height": 68
+        },
+        "parameters": {
+          "notice": "",
+          "execution_setting": {
+            "notes": "",
+            "on_error": "stop_workflow",
+            "max_retries": 1,
+            "execute_once": false,
+            "retry_on_fail": false,
+            "always_output_data": false,
+            "wait_between_tries": 0,
+            "display_note_in_flow": false
+          }
+        },
+        "selectable": false,
+        "initialized": false,
+        "handleBounds": {
+          "source": [
+            {
+              "x": 315.3999938964844,
+              "y": 30.850006103515625,
+              "id": "out",
+              "type": "source",
+              "width": 6,
+              "height": 6,
+              "nodeId": "06396b23-285c-430a-b032-5a285fd0c87e",
+              "position": "right"
+            }
+          ],
+          "target": null
+        },
+        "configuration": {
+          "execution_setting": {
+            "notes": "",
+            "on_error": "stop_workflow",
+            "max_retries": 1,
+            "execute_once": false,
+            "retry_on_fail": false,
+            "always_output_data": false,
+            "wait_between_tries": 0,
+            "display_note_in_flow": false
+          }
+        },
+        "nodeTypeActions": "trigger",
+        "computedPosition": {
+          "x": 208,
+          "y": 208,
+          "z": 0
+        }
+      },
+      {
+        "id": "cab1a589-32cc-47ad-8364-3d1a85a1d8d4",
+        "data": {
+          "icon": "https://s3.ap-south-1.amazonaws.com/y0-dev-assets/y0-uploads/tools/180/razorpay_logo.svg",
+          "color": "#E6E7EC",
+          "label": "RazorPay - Get many orders",
+          "value": {
+            "amount": "10000",
+            "currency": "INR",
+            "resource": "order",
+            "operation": "getall",
+            "payment_id": "",
+            "description": "",
+            "reference_id": "",
+            "credential_id": 1030,
+            "settlement_id": "",
+            "payment_link_id": "",
+            "subscription_id": "",
+            "customer_details": [],
+            "execution_setting": {
+              "notes": "",
+              "on_error": "stop_workflow",
+              "max_retries": 1,
+              "execute_once": false,
+              "retry_on_fail": false,
+              "always_output_data": false,
+              "wait_between_tries": 0,
+              "display_note_in_flow": false
+            }
+          },
+          "actionId": "180",
+          "operation": "getall",
+          "is_focused": false,
+          "description": "Retrieve details of all orders with optional filters",
+          "resourceName": "order",
+          "configuration": {
+            "execution_setting": {
+              "notes": "",
+              "on_error": "stop_workflow",
+              "max_retries": 1,
+              "execute_once": false,
+              "retry_on_fail": false,
+              "always_output_data": false,
+              "wait_between_tries": 0,
+              "display_note_in_flow": false
+            }
+          },
+          "focused_field": null,
+          "focused_field_meta": null
+        },
+        "type": "RAZORPAY",
+        "events": {},
+        "dragging": false,
+        "isParent": false,
+        "position": {
+          "x": 608,
+          "y": 192
+        },
+        "resizing": false,
+        "selected": false,
+        "dimensions": {
+          "width": 420,
+          "height": 68
+        },
+        "parameters": {
+          "amount": "10000",
+          "currency": "INR",
+          "resource": "order",
+          "operation": "getall",
+          "payment_id": "",
+          "description": "",
+          "reference_id": "",
+          "credential_id": 1030,
+          "settlement_id": "",
+          "payment_link_id": "",
+          "subscription_id": "",
+          "customer_details": [],
+          "execution_setting": {
+            "notes": "",
+            "on_error": "stop_workflow",
+            "max_retries": 1,
+            "execute_once": false,
+            "retry_on_fail": false,
+            "always_output_data": false,
+            "wait_between_tries": 0,
+            "display_note_in_flow": false
+          }
+        },
+        "selectable": false,
+        "initialized": false,
+        "handleBounds": {
+          "source": [
+            {
+              "x": 315.39996337890625,
+              "y": 30.850006103515625,
+              "id": "out",
+              "type": "source",
+              "width": 6,
+              "height": 6,
+              "nodeId": "cab1a589-32cc-47ad-8364-3d1a85a1d8d4",
+              "position": "right"
+            }
+          ],
+          "target": [
+            {
+              "x": -1.4000244140625,
+              "y": 30.850006103515625,
+              "id": "in",
+              "type": "target",
+              "width": 6,
+              "height": 6,
+              "nodeId": "cab1a589-32cc-47ad-8364-3d1a85a1d8d4",
+              "position": "left"
+            }
+          ]
+        },
+        "configuration": {
+          "execution_setting": {
+            "notes": "",
+            "on_error": "stop_workflow",
+            "max_retries": 1,
+            "execute_once": false,
+            "retry_on_fail": false,
+            "always_output_data": false,
+            "wait_between_tries": 0,
+            "display_note_in_flow": false
+          }
+        },
+        "nodeTypeActions": "action",
+        "computedPosition": {
+          "x": 608,
+          "y": 192,
+          "z": 0
+        }
+      }
+    ],
+    "notes": [
+      {
+        "id": "5adb4ece-8cb7-4513-a600-bf67f5ab0cd9",
+        "color": "#A8CFC0",
+        "content": "",
+        "position": {
+          "x": 1116,
+          "y": 40
+        }
+      }
+    ],
+    "viewport": {
+      "x": 0,
+      "y": 0,
+      "zoom": 1
+    }
+  },
+  "versionId": "eiihXvznh4rdHQHg0b6SCwvwqptAUq+NVXy+PuO3vBg2n6sCKGtugRVkkmSyaEc=",
+  "tags": [],
+  "apps_used": [
+    "manual",
+    "razorpay"
+  ]
+}
